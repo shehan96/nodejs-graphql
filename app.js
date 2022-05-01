@@ -7,10 +7,9 @@ const app = express();
 const query = new GraphQLObjectType({
     name : "HelloQuery",
     fields : () => ({
-        message : {
-            type : GraphQLString,
-            resolve : () => 'Hello World'
-        }
+        message : ({
+            resolve : () => { return 'Hello'; }
+        })
     })
 });
 
