@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-graphql",
+  "version": "1.0.0",
+  "description": "node js graphql server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "graphql"
+  ],
+  "author": "Shehan Abeyrathne",
+  "license": "ISC"
+}
