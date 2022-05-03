@@ -1,18 +1,9 @@
 const express = require('express');
-const { GraphQLSchema, GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLList } = require('graphql');
+const { GraphQLSchema } = require('graphql');
 const expressGraphql = require('express-graphql').graphqlHTTP;
-const getAllUsers = require('./queries/get_all_users');
-const getSingleUser = require('./queries/get_single_user');
+const rootQuery = require('./src/index');
 
 const app = express();
-
-const rootQuery = new GraphQLObjectType({
-    name : "rootQuery",
-    fields : { 
-        getAllUsers,
-        getSingleUser
-    }
-});
 
 const schema = new GraphQLSchema({
     description : "This is main schema",
@@ -24,9 +15,5 @@ app.use('/graphql', expressGraphql({
     graphiql : true
 }));
 
-app.use('/graphql-sec', expressGraphql({
-    schema : schema,
-    graphiql : true
-}));
 
 module.exports = app;
