@@ -1,0 +1,10 @@
+[{"id":1,"isbn":"454329423-8","book_name":"Arceuthobium tsugense (Rosend.) G.N. Jones ssp. tsugense","author_id":1},
+{"id":2,"isbn":"843616190-4","book_name":"Solidago porteri Small","author_id":2},
+{"id":3,"isbn":"724034394-4","book_name":"Arabis repanda S. Watson","author_id":3},
+{"id":4,"isbn":"196533056-8","book_name":"Cordylanthus mollis A. Gray ssp. mollis","author_id":4},
+{"id":5,"isbn":"993104591-4","book_name":"Suaeda californica S. Watson","author_id":3},
+{"id":6,"isbn":"614486316-8","book_name":"Muhlenbergia wrightii Vasey ex J.M. Coult.","author_id":5},
+{"id":7,"isbn":"534241999-9","book_name":"Trichomanes hookeri C. Presl","author_id":2},
+{"id":8,"isbn":"737699120-4","book_name":"Aloina hamulus (Müll. Hal.) Broth.","author_id":5},
+{"id":9,"isbn":"143152463-8","book_name":"Liatris elegans (Walter) Michx. var. elegans","author_id":5},
+{"id":10,"isbn":"950331533-6","book_name":"Argythamnia mercurialina (Nutt.) Müll. Arg. var. pilosissima (Benth.) Shinners","author_id":1}]
