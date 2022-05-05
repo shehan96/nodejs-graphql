@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-graphql",
+  "version": "1.0.0",
+  "description": "node js graphql api using typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node ./dist/index.js",
+    "test": "nodemon ./src/index.ts"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "graphql",
+    "typescript"
+  ],
+  "author": "Shehan Abeyrathne",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
