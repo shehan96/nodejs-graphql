@@ -1,3 +1,4 @@
+import { GetAllTodos } from './Queries/Todo';
 import { GetAllBooks } from './Queries/Book';
 import { GetAllUsers, GetSingleUser } from './Queries/User';
 import express from "express";
@@ -11,7 +12,8 @@ const rootQuery = new GraphQLObjectType({
     fields : {
         GetAllUsers,
         GetSingleUser,
-        GetAllBooks
+        GetAllBooks,
+        GetAllTodos
     }
 });
 
