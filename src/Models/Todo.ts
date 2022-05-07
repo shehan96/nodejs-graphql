@@ -2,11 +2,17 @@ import mongoose from "mongoose";
 
 export const TodoModel = mongoose.model("Todo", new mongoose.Schema({
     id: Number,
-    userId: Number,
-    title: { 
-        type : String,
-        default : "Hello",
-        required : true
+    userId: {
+        type: Number,
+        required: true
     },
-    completed: Boolean
+    title: {
+        type: String,
+        default: "Hello",
+        required: true
+    },
+    completed: {
+        type: Boolean,
+        required: true
+    }
 }));
